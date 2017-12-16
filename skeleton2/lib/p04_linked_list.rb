@@ -40,7 +40,7 @@ class LinkedList
   end
 
   def empty?
-    return true if @head.prev == @tail
+    @head.prev == @tail
   end
 
   def get(key)
